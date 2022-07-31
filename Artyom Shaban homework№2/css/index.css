@@ -1,0 +1,20 @@
+body {
+    background-color: gray;
+    font-size: 35px;  
+   }
+
+.car{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    color: orangered ;  
+}
+.train{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 14px; 
+    color: green;
+}
+.palette{
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 20px;
+    color:black;
+}
