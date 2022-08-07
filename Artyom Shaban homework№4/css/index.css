@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.a {
+	background-image: url(images/1.PNG);
+    background-repeat: no-repeat ;
+    background-position: 0% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:1;	
+}
+
+.b {
+	background-image: url(images/2.PNG);
+    background-repeat: repeat-y;
+    background-position: 0% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+}
+
+.c {
+	background-image: url(images/3.PNG);
+    background-repeat: no-repeat;
+    background-position: 0% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:2;
+}
+
+.d {
+	background-image: url(images/4.PNG);
+    background-repeat: repeat-x;
+    background-position: 100% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+}
+
+.e {
+	background-image: url(images/5.PNG);
+    background-repeat: no-repeat ;
+    background-position: 100% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:3;
+}
+
+.f {
+	background-image: url(images/6.PNG);
+    background-repeat: repeat-y;
+    background-position: 100% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+}
+
+.g {
+	background-image: url(images/7.PNG);
+    background-repeat: no-repeat ;
+    background-position: 100% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:4;
+}
+
+.h {
+	background-image: url(images/8.PNG);
+    background-repeat: repeat-x;
+    background-position: 100% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;   
+}
+
+
+.Beryllium {
+   border: 1px solid transparent;
+   width: 70vw;
+   height: 70vh;
+   position: absolute;
+   margin: 10% 10% 10% 15%; 
+   font-size: 29px;
+   overflow: hidden;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   white-space: pre-wrap;
+   z-index: 5;
+}
