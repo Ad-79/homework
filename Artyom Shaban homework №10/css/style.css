@@ -1,0 +1,64 @@
+.main{
+    display:grid;
+    width: 60vw;
+    grid-template-areas: 
+    "header header"
+    "menu body"
+    "footer footer";
+    grid-template-columns: 1fr 3fr;
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(93, 93, 136);
+    color: blue;
+}
+
+.menu{
+    grid-area: menu;
+    padding: 12%;
+    background-color: yellow;
+}
+
+.body{
+    grid-area: body;
+    position: relative;
+    overflow: hidden;
+}
+
+.body::before{
+    content: '';
+    display: block;
+    position:absolute;
+    width: 150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(../img/мяч.jpg);
+    opacity: 0.2;
+}
+
+.footer{
+    grid-area: footer;
+    background-color:  rgb(93, 93, 136);
+    color: blue;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+p{
+    margin: 5%;
+    
+}
