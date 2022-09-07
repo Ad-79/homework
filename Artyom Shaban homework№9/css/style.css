@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background: violet
+}
+.registration_form{
+    background-color:aqua;
+    border:solid 2px gray;
+    border-radius: 30px;
+    font-size: 17px;
+    width: 50vw;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+div{
+    margin-bottom: 35px;
+}
+input{
+    outline: none;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: aquamarine;
+}
+
+.name_form{
+    display: flex;
+}
+
+.name_form_label{
+    display: flex;
+    flex-direction: column;    
+    width: 20vw;
+    text-align: right;
+    padding-right: 20px;
+    margin-bottom: 0px;
+
+}
+
+.name_form_label label{
+    margin: 6px;
+}
+
+.name_form_input{
+    display: flex;
+    flex-direction: column;    
+    width: 30vw;
+    margin-bottom: 0px;
+    
+}
+
+.name_form_input input{
+    width: 15vw;
+    height: 20px;
+    margin: 5px;
+    background-color:aqua;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+}
+
+
+.name_form input:focus{
+    border: 2px solid aquamarine;
+    box-shadow: 0 0 3px aquamarine;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+input:checked + label{
+    color: aquamarine;;
+}
+
+.birthday input{
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    
+}
+
+.button input{
+    width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+}
+
+.button input:hover{       
+     background-color: aquamarine;
+     border: 1px solid aquamarine;
+}
+
+.button input:focus{
+    background-color:  aquamarine;
+
+}
