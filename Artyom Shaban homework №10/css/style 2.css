@@ -1,0 +1,42 @@
+.main{
+    display:grid;
+    width: 80vw;
+    grid-template-areas: 
+    "body"
+    "menu"; 
+    grid-template-columns: 3fr;
+}
+
+.menu{
+    grid-area: menu;
+    padding: 10%;
+    background-color: white;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+}
+
+.body{
+    grid-area: body;
+    position: relative;
+    overflow: hidden;
+}
+
+.body::before{
+    display: none;
+}
+
+.header{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
+p{
+    clear: both;
+}
